@@ -1,0 +1,43 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.blogListContainer {
+  width: 100%;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blogItem {
+  height: 600px;
+}
+.blogItem .image__wrapper {
+  height: 300px;
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+}
+.blogItem .image__wrapper .blogCover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

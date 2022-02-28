@@ -1,0 +1,13 @@
+@use "sass:math";
+
+$ratio: 1;
+$fs-xs: calc(0.75rem / var($ratio));
+$fs-s: calc(0.8125rem / var($ratio));
+$fs-l: calc(0.875rem / var($ratio));
+$fs-xl: calc(0.9375rem / var($ratio));
+$fs-base: calc(1rem / var($ratio));
+$fs-2xl: calc(1.5rem / var($ratio));
+$fs-3xl: calc(1.6875rem / var($ratio));
+$fs-4xl: calc(2.25rem / var($ratio));
+$fs-5xl: calc(2.5rem / var($ratio));
+$fs-6xl : calc(3rem / var($ratio));
